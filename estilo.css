@@ -7,6 +7,11 @@
     max-width: 1200px;
     margin:0 auto;
 }
+@media(max-widht: 900px){
+    .teste{
+        float: none;
+    }
+}
 /*Header*/
 .header__title{
     background-color: #117A25;
@@ -35,16 +40,51 @@
     background-color: #fff;
 }
 /*Main*/
-.titulo{
-    color:#00420C;
-    padding:0 0 33px 0;
+.main{
+    margin: o auto;
+    padding: 50px 0 280px 0;
 }
-.aside > span{
+.teste>div>h1{
+    color: #00420C;
+    padding: 20px 0;
+}
+.div{
     display: flex;
+    margin:0 auto;
+    padding: 0 20px
+}
+.conceito{
+    background-color: #117A25;
+    padding:20px;
+    margin: 5px 90px;
+    border-radius: 5px;
+}
+.conceito>span{
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding: 10px;
+}
+/*.teste{
+    max-width: 600px;
+    float: left;
+}*/
+.teste2>span{
+    display: block;
+    text-align: center;
+}
+.imagem{
+    padding: 0 130px;
+    text-align: center;
+}
+.teste4{
+    font-size: 32px;
 }
 /*Footer*/
 .footer{
     background-color: #00420C;
+    margin:0 auto;
+    padding: 30px;
 }
 .footer__geral{
     display:flex;
